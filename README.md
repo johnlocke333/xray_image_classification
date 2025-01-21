@@ -59,11 +59,15 @@ Additionally, I used LIME to take individual instances to visually show what the
 ![confmatrix.png](./images/confmatrix.png)
 
 * **LIME Visualization** 
+
 Pnuemonia:
+
 
 ![lime_p.png](./images/lime_p.png)
 
 Normal:
+
+
 ![lime_n.png](./images/lime_n.png)
 
 
