@@ -88,7 +88,7 @@ Data Enrichment:
 
 ## For More Information
 
-See the full analysis in the notebook or review this [presentation](presentation.pdf).
+See the full analysis in the [notebook](notebook.ipynb) or review this [presentation](presentation.pdf).
 
 For additional info, contact Jack Locke at [jackdlocke@gmail.com](mailto:jackdlocke@gmail.com)
 
