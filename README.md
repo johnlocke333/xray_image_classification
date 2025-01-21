@@ -52,6 +52,16 @@ For this model, I applied the Dropout technique. This randomly selects neurons t
 # Evaluation
 Finally, I must evaluate our model on the unseen data (valid images/labels). The model performed well on the unseen images, confirming our model is generalizable. I have a perfect recall score, 100%, with a loss of 0.19. I used a confusion matrix to visualize the predictions. As more data is acquired, the recall score will lower slightly.
 
+Overall, I created a baseline model as a reference point. Then I used a gridsearch to find the optimal parameters. The parameters I investigated were the epochs, batch size, activation function, optimizer, and number of neurons. After using the parameters suggested by the gridsearch, I saw the recall and loss scores demonstrated overfitting. To fix this issue, I applied regularization to the model via the dropout techinique. The model was able to reduce the amount of overfitting overall, but still had some slight overfitting. I experimented with additional layers and regularization techniques but all of those lead to diminishing results. Overall, I was left with a model containing two layers with the following parameters:
+
+* Epochs - 50
+* Batch Size - 20
+* Neurons - 20
+* Activation Function - sigmoid
+* Optimizer - SGD
+
+The output layer must have one nueron and sigmoid as the activation function since this is a binary image classification. 
+
 Additionally, I used LIME to take individual instances to visually show what the model was looking at in order to make its prediction. I represent two images, one with pneumonia and one without pneumonia.
 
 * **Final Model: reg_model**
