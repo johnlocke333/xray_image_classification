@@ -6,21 +6,21 @@
 1.  Business Understanding
 2.  Data Understanding
 3.  Data Preparation
-  *   Directory path for train/test/valid images
-  *   Create image/label datasets and reshape 
-  *   Change dimensions of images and labels
-  *   Standardize images
-  *   Class Imbalance - class weights
+      *   Directory path for train/test/valid images
+      *   Create image/label datasets and reshape 
+      *   Change dimensions of images and labels
+      *   Standardize images
+      *   Class Imbalance - class weights
 4.  Modeling
-  *   Baseline
-  *   Gridsearch/Tuned Model
-  *   Regularization 
+      *   Baseline
+      *   Gridsearch/Tuned Model
+      *   Regularization 
 5.  Evaluation
-  *   Final Model
-  *   LIME Interpretability
+      *   Final Model
+      *   LIME Interpretability
 6.  Conclusions
-  *   Limitations
-  *   Recommendations/Next Steps
+      *   Limitations
+      *   Recommendations/Next Steps
 
 # Business Understanding
 The business stakeholder is a diagnostic imaging center exploring the use of neural networks to help predict when patients have pneumonia. My project uses X-ray images of patients with and without pneumonia. The model aims to predict whether someone has pneumonia or not. The importance of the model revolves around the costs associated with false positives and false negatives. The false positive would be predicting someone does have pneumonia when they don’t (wasted time/resources/money). The false negative would be predicting someone didn't have pneumonia when they did (future health issues). I will find an appropriate trade-off between our two costs, focusing on minimizing future health issues. The imaging center can use the model to aid doctors in their decision-making, leading to better efficiency, accuracy, and decreased workload. All leading to more growth for the business. My analysis will use the CRISP-DM (Cross-industry standard process for data mining) methodology.
@@ -84,14 +84,13 @@ Data Enrichment:
 
 ## For More Information
 
-See the full analysis in the github notebook or review this [presentation](presentation.pdf).
+See the full analysis in the notebook or review this [presentation](presentation.pdf).
 
 For additional info, contact Jack Locke at [jackdlocke@gmail.com](mailto:jackdlocke@gmail.com)
 
 ## Repository Structure
 
 ```
-├── data
 ├── images
 ├── README.md
 ├── presentation.pdf
